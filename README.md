@@ -14,9 +14,12 @@ If you find anything of this repository useful for your projects, please conside
 ```bibtex
 @inproceedings{Baptista2019iccvw,
   Title     = {The Instantaneous Accuracy: a Novel Metric for the Problem of Online Human Behaviour Recognition in Untrimmed Videos},
-  Author    = {Baptista Rios, Marcos and López-Sastre, R. J. and Caba Heilbron, Fabian and van Gemert, Jan},
-  Booktitle = {ICCV Workshop on Human Behaviour Understanding},
-  Year      = {2019}
+  Author    = {M. {Baptista-Ríos} and R. J. {López-Sastre} and F. {Caba-Heilbron} and J. {van Gemert}},
+  Booktitle = {IEEE International Conference on Computer Vision Workshop (ICCVW)},
+  pages     = {1282-1284},
+  Year      = {2019},
+  doi       = {10.1109/ICCVW.2019.00162},
+  month     = {October}
 }
 ```
 
