@@ -104,7 +104,7 @@ After running the command, the script will prompt the **weighted mean average In
 
 ### Results
 
-We have conducted several experiments with some baselines and other available state-of-the-art model. You can find more information in the publications. However, as an example, we give the `.json` files with the results on Thumos'14, TVSeries and ActivityNet1.3 datasets of our 3D-CNN baseline based on the C3D network. 
+We have conducted several experiments with some baselines and other available state-of-the-art model. You can find more information in the publications. However, as an example, we give the `.json` files with the results on Thumos'14, TVSeries and ActivityNet1.3 datasets of our 3D-CNN baseline based on the C3D network. These files are stored in the `data/` directory.
 
 In the next table, we also show the default maIA (weighted version) performance of the 3D-CNN baseline model for the all datasets in the next table:
 
