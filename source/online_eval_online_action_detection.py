@@ -165,7 +165,7 @@ class OnlineEvalOAD:
             pkl.dump(eval_info, f)
 
         # Done
-        print(f'maIA: {maia}')
+        print('maIA: {0:.4f}'.format(maia))
         print('Check generated .pkl file for more information.')
 
         return

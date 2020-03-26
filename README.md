@@ -14,7 +14,7 @@ If you find anything of this repository useful for your projects, please conside
 ```bibtex
 @inproceedings{Baptista2019iccvw,
   Title     = {The Instantaneous Accuracy: a Novel Metric for the Problem of Online Human Behaviour Recognition in Untrimmed Videos},
-  Author    = {M. {Baptista R\'ios} and R. J. {L\'opez-Sastre} and F. {Caba-Heilbron} and J. {van Gemert}},
+  Author    = {M. {Baptista R\'ios} and R. J. {L\'opez-Sastre} and F. {Caba-Heilbron} and J. {van Gemert} and F. J. {Acevedo-Rodr\'iguez} and S. {Maldonado-Basc\'on}},
   Booktitle = {IEEE International Conference on Computer Vision Workshop (ICCVW)},
   pages     = {1282-1284},
   Year      = {2019},
@@ -82,9 +82,9 @@ results: {
 
 ###### Usage
 
-*(The code has been tested using Python 3, specifically we have used python 3.7. We recommend to use the same version or, at least, any version from 3.6. Additionally, the python installation requires*`Numpy` *and* `Pickle` *packages.)*
+*(The code has been tested using Python 3, specifically we have used python 3.7. It should run with any Python 3.X distribution, though we recommend to use the same version as us. Additionally, the python installation requires*`Numpy` *and* `Pickle` *packages.)*
 
-Once you have the results of your method in the correct format, just run the  next command to obtain its performance:
+Once you have the results of your method in the correct format, just change current directory to the `source/` and run the  next command to obtain its performance:
 
 ```bash
 python compute_instantaneous_accuracy.py -d Thumos14 -gt ../annotations/gt-thumos14.json -subset Test -pred ../data/c3d-thumos14.json -pkl ./c3d-thumos14-ia.pkl
@@ -95,8 +95,10 @@ Where the options are:
 
 - `-d`: name of the dataset.
 - `-gt`: path to a `.json` ground truth file with the correct structure.
-- `-subset`: subset of the dataset which you are evaluating your method on.
-  - Subsets are Test, Test and validation for Thumos'14, TVSeries and ActivityNet1.3 respectively.
+- `-subset`: subset of the dataset which you are evaluating your method on. In our experiments, we use the following subsets during the evaluation (please specify them exactly as we spell them):
+  - `Test` for Thumos'14.
+  - `Test` for TVSeries.
+  - `validation` for ActivityNet1.3.
 - `-pred`: path to a `.json` prediction file with the correct structure.
 - `-pkl`: path file where the `.pkl` generated file will be stored.
 
@@ -108,7 +110,7 @@ We have conducted several experiments with some baselines and other available st
 
 In the next table, we also show the default maIA (weighted version) performance of the 3D-CNN baseline model for the all datasets in the next table:
 
-|              | Thumos'14 | TVSeries | ActivityNet1.3 |
-| ------------ | --------- | -------- | -------------- |
-| **maIA (%)** | 58.10     | 28.95    | 27.38          |
+|                       | Thumos'14 | TVSeries | ActivityNet1.3 |
+| --------------------- | --------- | -------- | -------------- |
+| **weighted maIA (%)** | 58.10     | 28.95    | 27.38          |
 
