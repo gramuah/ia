@@ -28,7 +28,7 @@ If you find anything of this repository useful for your projects, please conside
 	author  = {M. {Baptista R\'ios} and R. J. {L\'opez-Sastre} and F. {Caba Heilbron} and J. C. {Van Gemert} and F. J. {Acevedo-Rodr\'iguez} and S. {Maldonado-Basc\'on}},
 	journal = {IEEE Access},
 	title   = {Rethinking Online Action Detection in Untrimmed Videos: A Novel Online Evaluation Protocol},
-	year	= {2020},
+	year	= {2019},
 	volume  = {8},
 	pages   = {5139-5146},
 	doi     = {10.1109/ACCESS.2019.2961789},
