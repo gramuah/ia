@@ -1,6 +1,6 @@
 # Instantaneous Accuracy
 
-This repository contains the code of the Instantaneous Accuracy metric. The metric was presented [here](https://arxiv.org/pdf/2003.09970.pdf) and extended [here](https://ieeexplore.ieee.org/document/8939455).
+This repository contains the code of the Instantaneous Accuracy metric. The metric was presented [here](https://arxiv.org/pdf/2003.09970.pdf) and extended [here](https://arxiv.org/pdf/2003.12041.pdf).
 
 <p align="center">
   <img src="./png/ia.png" alt="Online Evaluation for Online Action Detection" title="Instantaneous Accuracy" width="652" zoom="343" align="center" />
